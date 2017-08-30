@@ -9,9 +9,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "start-deploy": "npm run build-deploy && nodemon ./deploy/server/app.js",
-    "build-deploy": "node ./build.js",
-    "server-install": "cd server && npm install && cd .."
+    "server-install": "cd server && npm install && cd ..",
+    "build-deploy": "node ./build.js",    
+    "start-deploy": "npm run build-deploy && nodemon ./deploy/server/app.js"
   },
   "private": true,
   "dependencies": {
